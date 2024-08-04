@@ -1,0 +1,243 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.logo{
+    align-self: center;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+#list-menu{
+    list-style: none;
+    display: flex;
+margin-left: 40rem;
+justify-content: center;
+
+}
+#list-menu .nav-item{
+transition: 0.3s;
+}
+#list-menu .nav-item:hover{
+    text-shadow: 2px 2px 3px 3px rgb(94, 87, 87);
+    background-color:#ec8590;
+    border-radius: 5px;
+
+}
+#navbar{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+}
+
+#section-one #left-text{
+    margin-top: 18rem;
+}
+#section-one #left-text .h1{
+    font-size: 4rem;
+    font-weight:600;
+    text-shadow: 1px 1px 1px rgb(248, 244, 244);
+    filter: brightness(3%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#section-one #button:hover{
+
+    background-color: #000000;
+
+
+}
+#section-one #button{
+    transition: 0.2s;
+    border: unset;
+    background-color: red;
+font-weight: 500;
+text-shadow: #00000059 2px 1px 2px;
+}
+#section-one{
+    background-color: rgba(14, 2, 2, 0.082);
+}
+#section-two .card-group .card{
+    border: unset;
+
+}
+#section-two .card-body .card-text{
+    text-align: center;
+    z-index: 3;
+    color: red;
+font-size: medium;
+font-weight: 600;
+}
+#section-two .card{
+justify-content: space-evenly;
+}
+#section-two .card img{
+transition: 0.5s;
+filter:brightness(70%);
+
+}
+
+#section-two .card img:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    filter:brightness(100%);
+
+}
+
+
+#section-two .card-body .card-title{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 300;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#section-two .h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+#section-three #width-gallery-one{
+    width: 50%;
+    }
+#section-three #width-gallery-two{
+    width: 25%;
+    
+}
+#section-three #width-gallery-three{
+
+    width: 25%;
+}
+
+#section-three #groups-gallery div {
+border: unset;
+}
+
+#section-three img{
+    transition: 0.5s;
+}
+#section-three img:hover{
+cursor: pointer;
+transform: scale(0.95);
+filter: brightness(85%);
+box-shadow: 10px 10px 50px 10px black;
+border-radius: 20px;
+
+}
+#section-four .h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+}
+#section-four .h6{
+    font-weight: bold;
+    text-align: center;
+    line-height: 85%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 500;
+
+}
+#section-four .card-group .card {
+    border: unset;
+    background-color: rgb(255, 255, 255);
+
+    }
+
+    #section-four .card-group{
+        width: 80%;
+   }
+   #section-four .card-group .card-text{
+    color: red;
+    font-weight:600;
+   }
+   
+    #section-four .card-img-top{
+border-radius: 100% ;
+filter: brightness(80%);
+transition: 0.5s;
+    }
+
+    #section-four .card-img-top:hover{
+filter: brightness();
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
+    }
+    #section-four #button{
+height: 3.1rem;
+background-color: #ec858f09;
+border-top: unset;
+border-left: unset;
+border-right: unset;
+color: white;
+border-color: rgb(24, 2, 54);
+border-radius: 50%;
+transition: 0.5s;
+    }
+
+    #section-four #button:hover{
+        background-color: rgba(255, 0, 0, 0.842);
+        transform:perspective(10%);
+        box-shadow: 0px 10px 20px 10px 0px black ;
+        font-weight: bolder;
+    }
+
+    #section-five{
+        background-image: linear-gradient(to right , rgba(255, 0, 0, 0.281) , rgba(0, 0, 255, 0.096));  
+   padding-bottom: 5rem;
+   padding-top: 5rem;
+   box-shadow: 1px 1px 10px rgb(16, 1, 58);
+border-bottom-right-radius:30%;
+border-top-left-radius: 30%;
+border-top-right-radius: 1%;
+border-bottom-left-radius: 1%;
+
+
+
+}
+    #section-five #clock {
+        mix-blend-mode: multiply;
+
+
+
+}
+
+    #section-five #clock img{
+ mix-blend-mode: multiply;
+border-radius: 90%;  
+box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.164); 
+
+}
+#section-five #left-text{
+        margin-top: 6rem;
+        padding-left: 7rem;
+    }
+    #section-five .h1{
+        font-size: 4rem;
+        font-family:fantasy;
+        text-shadow: #3e11e054 0px 0px 10px ;
+        filter: brightness(100%);
+    }
+    #section-five #button{
+        color: white;
+        font-weight: bold;
+        background-color: rgb(0, 0, 0);
+        border: unset;
+        box-shadow: 1px 1px 5px blue;
+        transition: 0.3s;
+    }
+
+#section-five #button:hover{
+background-image: linear-gradient(to right , red , blue);  
+transform: scale(1.1);
+color:bisque;
+
+
+}
+
+
+
+
+
